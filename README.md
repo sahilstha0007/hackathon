@@ -178,19 +178,12 @@ Collections:
 - **Bcryptjs**: Password hashing
 - **Cloudinary**: Image storage
 
-## 📊 Route Architecture/ Navigation
-
+## 📊 Route Architecture
 ```mermaid
-graph TD
-  A[Register] -->|User/Artist| B[Login]
-  B --> C[Home]
-  C --> D[About]
-  C --> E[Art]
-  E --> F[SingleArt]
-  C --> G[Contact Us]
-  C -->|API Calls| H[Backend Server]
-  H -->|Queries| I[MongoDB]
-  H -->|Storage| J[Cloudinary]
+graph TD 
+    A[Register] -->[User/Artist] B[Login]
+    B --> C[Home]
+    C -->|About| D[Art]
 
 ## 🔄 Development Workflow
 1. Feature branch creation
