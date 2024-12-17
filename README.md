@@ -187,9 +187,6 @@ graph TD
     C --> E[Art]
     E --> F[SingleArt]
     C --> G[Contact Us]
-    C -->|API Calls| H[Backend Server]
-    H -->|Queries| I[MongoDB]
-    H -->|Storage| J[Cloudinary]
 
 ## 🔄 Development Workflow
 1. Feature branch creation
