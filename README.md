@@ -186,7 +186,7 @@ graph TD
     C --> D[About]
     C --> E[Art]
     E --> F[SingleArt]
-    C --> G[Contact Us]
+    C --> G[ContactUs]
 
 ## 🔄 Development Workflow
 1. Feature branch creation
