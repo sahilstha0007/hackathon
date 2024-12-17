@@ -179,14 +179,18 @@ Collections:
 - **Cloudinary**: Image storage
 
 ## 📊 Route Architecture/ Navigation
+
 ```mermaid
 graph TD
   A[Register] -->|User/Artist| B[Login]
-    B --> C[Home]
-    C --> D[About]
-    C --> E[Art]
-    E --> F[SingleArt]
-    C --> G[ContactUs]
+  B --> C[Home]
+  C --> D[About]
+  C --> E[Art]
+  E --> F[SingleArt]
+  C --> G[Contact Us]
+  C -->|API Calls| H[Backend Server]
+  H -->|Queries| I[MongoDB]
+  H -->|Storage| J[Cloudinary]
 
 ## 🔄 Development Workflow
 1. Feature branch creation
