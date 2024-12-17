@@ -180,10 +180,7 @@ Collections:
 
 ## 📊 Route Architecture
 ```mermaid
-graph TD 
-    A[Register] -->[User/Artist] B[Login]
-    B --> C[Home]
-    C -->|About| D[Art]
+
 
 ## 🔄 Development Workflow
 1. Feature branch creation
