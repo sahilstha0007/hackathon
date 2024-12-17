@@ -22,7 +22,6 @@ const Navbar = () => {
             if (response.data.success) {
                 // Clear user data in context and redirect to /login
                 setUserContextData(null);
-                navigate('/login');
             } else {
                 console.error(response.message || 'Logout failed.');
                 alert(response.message || 'Logout failed. Please try again.');
@@ -70,7 +69,11 @@ const Navbar = () => {
                 <div className='flex items-start gap-4 md:ml-4'>
                     <div className='hidden md:flex items-center gap-2'>
                         <button
-                            onClick={handleLogOut}
+                            onClick={() => {
+                                handleLogOut();
+                                navigate("/login");
+                                window.scrollTo(0, 0); // Scrolls to the top of the page
+                            }}
                             className='text-white bg-[#8A2BE2] p-3 rounded-full hover:bg-[#9e43f3] transition-all duration-100 ease-in'
                         >
                             Logout
@@ -105,8 +108,7 @@ const Navbar = () => {
                 {/* Profile for mobile */}
                 <div className='flex items-center gap-2'>
                     <button
-                        onClick={handleLogOut}
-                        className='text-white bg-[#681dad] py-1 px-3 rounded-full transition-all duration-300 ease-in-out'
+                        onClick={() => { handleLogOut(); navigate("/login"); }} className='text-white bg-[#681dad] py-1 px-3 rounded-full transition-all duration-300 ease-in-out'
                     >
                         Logout
                     </button>

@@ -220,7 +220,7 @@ const Art = () => {
                 {storeArt.map((art, index) => (
                     <div key={index} className="relative border border-blue-200 rounded-xl overflow-hidden hover:translate-y-[-10px] transition-all duration-500">
                         <button className="bg-green-600 text-white p-2 rounded-tl-xl rounded-bl-xl absolute top-0 right-0 z-20">
-                            {art.randomNumber}$
+                            {art.randomNumber?art.randomNumber:"70"}$
                         </button>
 
                         <img
