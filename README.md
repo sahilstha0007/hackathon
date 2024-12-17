@@ -17,9 +17,9 @@ To create a thriving digital ecosystem where local artists can flourish and art 
 - **Global Reach**: Local art accessible to worldwide audiences
 
 ## 👥 Team Finest Members
-- **Smith Maharjan** - Frontend Developer & UI/UX Designer
-- **Hridaya Manandhar** - Full Stack Developer
-- **Sahil Shrestha** - Backend Developer & Database Administrator
+- **Smith Maharjan** - Full Stack Developer
+- **Hridaya Manandhar** - Idea Innovator 
+- **Sahil Shrestha** - Frontend Developer & UI/UX Designer
 
 ## 🚀 Getting Started
 
@@ -34,12 +34,12 @@ To create a thriving digital ecosystem where local artists can flourish and art 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sahilstha0007/Finest.git
+git clone https://github.com/sahilstha0007/hackathon.git
 ```
 
 2. Install backend dependencies:
 ```bash
-cd mainhackathontesting/backend
+cd hackathon/backend
 npm install
 ```
 
@@ -57,7 +57,7 @@ npm run dev
 
 5. In a new terminal, start the frontend:
 ```bash
-cd mainhackathontesting/frontend
+cd hackathon/frontend
 npm run dev
 ```
 
@@ -178,7 +178,6 @@ Collections:
 - **JWT**: Authentication
 - **Bcryptjs**: Password hashing
 - **Cloudinary**: Image storage
-- **Socket.io**: Real-time features
 
 ## 📊 System Architecture
 ```mermaid
