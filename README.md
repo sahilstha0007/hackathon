@@ -178,8 +178,7 @@ Collections:
 - **Bcryptjs**: Password hashing
 - **Cloudinary**: Image storage
 
-## 📊 Route Architecture
-```mermaid
+![FlowChart](./frontend/public/images/flowchart.png)
 
 
 ## 🔄 Development Workflow
