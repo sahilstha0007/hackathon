@@ -126,13 +126,13 @@ The application will be running at http://localhost:5173
 ```
 frontend/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   ├── hooks/
-│   ├── services/
-│   ├── utils/
 │   ├── assets/
+│   ├── components/
+│   ├── config/
+│   ├── context/
+│   ├── datas/
+│   ├── hooks/  
+│   ├── pages/ 
 │   └── styles/
 ```
 
@@ -140,12 +140,15 @@ frontend/
 ```
 backend/
 ├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   ├── utils/
-│   └── config/
+│   ├── cloudinary/
+│   ├── config/
+│   ├── controller/
+│   ├── data/
+│   ├── model/
+│   ├── multer/
+│   └── route/
+│   └── seeding/
+│   └── service/
 ```
 
 ### Database Schema
