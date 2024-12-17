@@ -1,6 +1,6 @@
 # Frame It - My Frame Your Art Our Platform
 
-![Frame It Logo](/hackathon/frontend/public/images/logo.png)
+(/hackathon/frontend/public/images/logo.png)
 
 ## 🎨 About The Project
 
