@@ -80,8 +80,7 @@ The application will be running at http://localhost:5173
 - Interactive 3D art model showcase
 - Featured artists section
 - Latest artwork carousel
-- Art categories navigation
-- Search functionality
+- Art navigation
 
 ### 🖼️ Art Gallery
 #### For Users
@@ -90,13 +89,12 @@ The application will be running at http://localhost:5173
 - Comment on artworks
 - Share on social media
 - Purchase artwork
-- Follow artists
 
 #### For Artists
 - Upload artwork with detailed descriptions
 - Set pricing and availability
 - Manage artwork listings
-- Track engagement metrics
+- Track likes and comment
 - Respond to comments
 - Process orders
 
@@ -112,7 +110,6 @@ The application will be running at http://localhost:5173
 - Portfolio display for artists
 - Activity history
 - Saved artworks collection
-- Following/Followers system
 
 ### 📱 Responsive Design
 - Mobile-first approach
@@ -172,7 +169,6 @@ Collections:
 - **GSAP**: Advanced animations
 - **React-Three-Fiber**: 3D integration
 - **Axios**: API communication
-- **Redux**: State management
 
 ### Backend Technologies
 - **Express.js**: Server framework
