@@ -188,6 +188,16 @@ graph TD
     D -->|Storage| F[Cloudinary]
 ```
 
+## 📊 Route Architecture/ Navigation
+```mermaid
+graph TD
+    A[Register] -->|User/Artist| B[Login]
+    B --> C[Home]
+    C -->|API Calls| D[Backend Server]
+    D -->|Queries| E[MongoDB]
+    D -->|Storage| F[Cloudinary]
+```
+
 ## 🔄 Development Workflow
 1. Feature branch creation
 2. Local development
