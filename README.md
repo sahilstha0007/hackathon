@@ -181,7 +181,7 @@ Collections:
 ## 📊 Route Architecture/ Navigation
 ```mermaid
 graph TD
-    A[Register] -->|User/Artist| B[Login]
+  A[Register] -->|User/Artist| B[Login]
     B --> C[Home]
     C --> D[About]
     C --> E[Art]
