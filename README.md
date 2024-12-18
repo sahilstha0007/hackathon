@@ -1,6 +1,6 @@
 # Frame It - My Frame Your Art Our Platform
 
-![Frame It Logo](./hackathon/frontend/public/images/logo.png)
+![Frame It Logo](./frontend/public/images/logo.png)
 
 ## Introduction 
 Our team finest participated in this hackethon organized by tech titans for a purpose which is to solve the problems related to local artist marketplace
